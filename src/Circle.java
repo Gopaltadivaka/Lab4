@@ -29,12 +29,6 @@ public class Circle {
 		double Circumference=2*PI*radius;
 		System.out.println("Circumference of Circle is : "+Circumference);
 	}
-	public static void main(String[] args) {
-		Circle circle= new Circle();
-		System.out.println(circle);
-		circle.area();
-		circle.diameter();
-		circle.circumference();	
-	}
+	
 }
      

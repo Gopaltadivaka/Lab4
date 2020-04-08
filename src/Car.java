@@ -26,19 +26,5 @@ public class Car {
 		  speed-=5;
 		 System.out.println("Current Speed after applying Brake: "+speed);
 	}
-	public static void main(String[] args) {
-		Car car=new Car();
-		System.out.println(car);
-		car.accelerate();
-		car.accelerate();
-		car.accelerate();
-		car.accelerate();
-		car.accelerate();
-		car.brake();
-		car.brake();
-		car.brake();
-		car.brake();
-		car.brake();
-		//car.accessors();
-	}
+	
 }
